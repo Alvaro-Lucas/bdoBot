@@ -1,0 +1,332 @@
+[
+{
+	"day":0,
+	"hour":0,
+	"min":15,
+	"boss":"Nouver & Kutum"
+},
+{
+	"day":0,
+	"hour":2,
+	"min":0,
+	"boss":"Kzarka"
+},
+{
+	"day":0,
+	"hour":5,
+	"min":0,
+	"boss":"Kutum"
+},
+{
+	"day":0,
+	"hour":9,
+	"min":0,
+	"boss":"Nouver"
+},
+{
+	"day":0,
+	"hour":12,
+	"min":0,
+	"boss":"Kzarka"
+},
+{
+	"day":0,
+	"hour":16,
+	"min":0,
+	"boss":"Vell"
+},
+{
+	"day":0,
+	"hour":19,
+	"min":0,
+	"boss":"Garmoth"
+},
+{
+	"day":0,
+	"hour":22,
+	"min":15,
+	"boss":"Kzarka & Nouver"
+},
+{
+	"day":1,
+	"hour":0,
+	"min":15,
+	"boss":"Kutum & Karanda"
+},
+{
+	"day":1,
+	"hour":2,
+	"min":0,
+	"boss":"Karanda"
+},
+{
+	"day":1,
+	"hour":5,
+	"min":0,
+	"boss":"Kzarka"
+},
+{
+	"day":1,
+	"hour":9,
+	"min":0,
+	"boss":"Kzarka"
+},
+{
+	"day":1,
+	"hour":12,
+	"min":0,
+	"boss":"Offin"
+},
+{
+	"day":1,
+	"hour":16,
+	"min":0,
+	"boss":"Kutum"
+},
+{
+	"day":1,
+	"hour":19,
+	"min":0,
+	"boss":"Nouver"
+},
+{
+	"day":1,
+	"hour":22,
+	"min":15,
+	"boss":"Kzarka"
+},
+{
+	"day":2,
+	"hour":0,
+	"min":15,
+	"boss":"Karanda"
+},
+{
+	"day":2,
+	"hour":2,
+	"min":0,
+	"boss":"Kutum"
+},
+{
+	"day":2,
+	"hour":5,
+	"min":0,
+	"boss":"Kzarka"
+},
+{
+	"day":2,
+	"hour":9,
+	"min":0,
+	"boss":"Nouver"
+},
+{
+	"day":2,
+	"hour":12,
+	"min":0,
+	"boss":"Kutum"
+},
+{
+	"day":2,
+	"hour":16,
+	"min":0,
+	"boss":"Nouver"
+},
+{
+	"day":2,
+	"hour":19,
+	"min":0,
+	"boss":"Karanda"
+},
+{
+	"day":2,
+	"hour":22,
+	"min":15,
+	"boss":"Garmoth"
+},
+{
+	"day":3,
+	"hour":0,
+	"min":15,
+	"boss":"Kutum & Kzarka"
+},
+{
+	"day":3,
+	"hour":2,
+	"min":0,
+	"boss":"Karanda"
+},
+{
+	"day":3,
+	"hour":5,
+	"min":0,
+	"boss":"Kzarka"
+},
+{
+	"day":3,
+	"hour":9,
+	"min":0,
+	"boss":"Karanda"
+},
+{
+	"day":3,
+	"hour":16,
+	"min":0,
+	"boss":"Kutum & Offin"
+},
+{
+	"day":3,
+	"hour":19,
+	"min":0,
+	"boss":"Vell"
+},
+{
+	"day":3,
+	"hour":22,
+	"min":15,
+	"boss":"Karanda & Kzarka"
+},
+{
+	"day":3,
+	"hour":23,
+	"min":15,
+	"boss":"Quint & Muraka"
+},
+{
+	"day":4,
+	"hour":0,
+	"min":15,
+	"boss":"Nouver"
+},
+{
+	"day":4,
+	"hour":2,
+	"min":0,
+	"boss":"Kutum"
+},
+{
+	"day":4,
+	"hour":5,
+	"min":0,
+	"boss":"Nouver"
+},
+{
+	"day":4,
+	"hour":9,
+	"min":0,
+	"boss":"Kutum"
+},
+{
+	"day":4,
+	"hour":12,
+	"min":0,
+	"boss":"Nouver"
+},
+{
+	"day":4,
+	"hour":16,
+	"min":0,
+	"boss":"Kzarka"
+},
+{
+	"day":4,
+	"hour":19,
+	"min":0,
+	"boss":"Kutum"
+},
+{
+	"day":4,
+	"hour":22,
+	"min":15,
+	"boss":"Garmoth"
+},
+{
+	"day":5,
+	"hour":0,
+	"min":15,
+	"boss":"Kzarka & Karanda"
+},
+{
+	"day":5,
+	"hour":2,
+	"min":0,
+	"boss":"Nouver"
+},
+{
+	"day":5,
+	"hour":5,
+	"min":0,
+	"boss":"Karanda"
+},
+{
+	"day":5,
+	"hour":9,
+	"min":0,
+	"boss":"Kutum"
+},
+{
+	"day":5,
+	"hour":12,
+	"min":0,
+	"boss":"Karanda"
+},
+{
+	"day":5,
+	"hour":16,
+	"min":0,
+	"boss":"Nouver"
+},
+{
+	"day":5,
+	"hour":19,
+	"min":0,
+	"boss":"Kzarka"
+},
+{
+	"day":5,
+	"hour":22,
+	"min":15,
+	"boss":"Kzarka & Kutum"
+},
+{
+	"day":6,
+	"hour":0,
+	"min":15,
+	"boss":"Karanda"
+},
+{
+	"day":6,
+	"hour":2,
+	"min":0,
+	"boss":"Offin"
+},
+{
+	"day":6,
+	"hour":5,
+	"min":0,
+	"boss":"Nouver"
+},
+{
+	"day":6,
+	"hour":9,
+	"min":0,
+	"boss":"Kutum"
+},
+{
+	"day":6,
+	"hour":12,
+	"min":0,
+	"boss":"Nouver"
+},
+{
+	"day":6,
+	"hour":16,
+	"min":0,
+	"boss":"Quint & Muraka"
+},
+{
+	"day":6,
+	"hour":19,
+	"min":0,
+	"boss":"Kzarka & Karanda"
+}
+]
