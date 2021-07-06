@@ -6,11 +6,6 @@ const client = new Discord.Client();
 var timedCheck = undefined;
 
 client.on('ready', ()=>{
-	var date = new Date();
-	var second = date.getSeconds();
-	//Reloj para que realice las funciones partiendo del segundo 0 (mayor precision a la hora de avisar de los boses)
-	sleep((60-second)*1000);
-
 	bossNow();
 });
 
@@ -35,6 +30,8 @@ client.on('message', async message =>{
 
 	const args = message.content.slice(prefix.length).trim().split(/ +/);
 	const command = args.shift().toLowerCase();
+	var date = new Date();
+	var second = date.getSeconds();
 	
 	//Lee el json con los datos sobre los bosses
 	var timeTable = fs.readFileSync('timetable.json', 'utf8');
@@ -51,6 +48,8 @@ client.on('message', async message =>{
 		    }
 		    case "on":
 		      {
+				//Reloj para que realice las funciones partiendo del segundo 0 (mayor precision a la hora de avisar de los boses)
+				sleep((60-second)*1000);
 		        if(!timedCheck){
 		          timedCheck = setInterval(() =>{
 		          	//Comprobamos a parte el tiempo de Vell ya que se quiere que avise con una mayor antelacion
@@ -150,6 +149,11 @@ client.on('message', async message =>{
 /*Nada mas encender el bot, iniciara la funcion de informar sobre los bosses*/
 function bossNow()
 {
+	var date = new Date();
+	var second = date.getSeconds();
+	//Reloj para que realice las funciones partiendo del segundo 0 (mayor precision a la hora de avisar de los boses)
+	sleep((60-second)*1000);
+
 	timedCheck = setInterval(() =>{
 	//Comprobamos a parte el tiempo de Vell ya que se quiere que avise con una mayor antelacion
 	var timeTable = fs.readFileSync('timetable.json', 'utf8');
