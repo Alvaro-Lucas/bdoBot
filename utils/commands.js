@@ -246,5 +246,5 @@ module.exports = {
 
         }, refresco);
         client.channels.cache.get(data.channelResponse).send('message command started!');
-    },
+    }
 };
