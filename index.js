@@ -1,5 +1,12 @@
 const functions = require('./utils/commands.js');
 const data = require("./config.json");
+const comandos = {
+	help:functions.help,
+	next:functions.next,
+	corcel:functions.corcel,
+	fls:functions.fls,
+	boss:functions.boss
+}
 
 
 const Discord = require('discord.js');
@@ -22,52 +29,11 @@ client.on('message', message => {
 	message.delete()
 		.then(msg => console.log("El mensaje "+msg.content+" ha sido borrado correctamente"))
 		.catch(console.error);
-
-	if (command === 'help') {
-		try {
-			functions.help(client);
-		}
-		catch (e) {
-			console.error("Fallo en el metodo help")
-			console.error(e)
-		}
+	
+	try{
+		comandos[command]({client, "args":args[0]})
 	}
-	else if (command === 'next') {
-		try {
-			functions.next(client);
-		}
-		catch (e) {
-			console.error("Fallo en el metodo next")
-			console.error(e)
-		}
-	}
-	else if (command === 'corcel') {
-		try {
-			functions.corcel(client)
-		}
-		catch (e) {
-			console.error("Fallo en el metodo corcel")
-			console.error(e)
-		}
-	}
-	else if (command === 'fls') {
-		try {
-			functions.fls(client, args[0])
-		}
-		catch (e) {
-			console.error(e)
-		}
-	}
-	else if (command == 'boss') {
-		try {
-			functions.boss(args[0])
-		}
-		catch (e) {
-			console.error("Fallo en el metodo boss")
-			console.error(e)
-		}
-	}
-	else {
+	catch(e){
 		client.channels.cache.get(data.channelResponse).send("Comando desconocido, redireccionando a la lista de comandos:");
 		functions.help(client);
 	}
